@@ -4,4 +4,29 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'jkt'</initValue>
+      <name>alertUsername</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'RsonSmW7UgLUKm9'</initValue>
+      <name>alertPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://auction.lelangmobilku.co.id/login'</initValue>
+      <name>urlLogin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://auction.lelangmobilku.co.id/profil/data-diri'</initValue>
+      <name>urlProfil</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://auction.lelangmobilku.co.id/register'</initValue>
+      <name>urlRegistrasi</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

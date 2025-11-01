@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Login</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>bbd5f466-bcd9-4dfb-8d96-c7a1a71b097d</testSuiteGuid>
+   <testCaseLink>
+      <guid>dbf69865-ec0a-4514-8dcd-e71242819828</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/LoginID001_Login_dengan_credential_valid</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>6c2745b5-12cf-4547-af73-83eacb6575b2</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Credentials</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a9fdd282-5faa-4e34-9abe-74c4682e0342</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6c2745b5-12cf-4547-af73-83eacb6575b2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Email</value>
+         <variableId>fabd9a2d-7074-46ac-b6bf-c852e1973399</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6c2745b5-12cf-4547-af73-83eacb6575b2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>7e013ba4-30ec-47ac-9256-91192d776041</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

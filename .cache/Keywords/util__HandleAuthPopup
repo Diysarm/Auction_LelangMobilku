@@ -1,0 +1,15 @@
+{
+  "keywordFileContentHash": "03045236AD48D49088026728E8F66375",
+  "keywordClasses": [
+    {
+      "name": "util.HandleAuthPopup",
+      "keywordMethods": [
+        {
+          "name": "authOnce",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

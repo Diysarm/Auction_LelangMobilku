@@ -1,0 +1,64 @@
+{
+  "keywordFileContentHash": "9F3AADF2C8BA72E1427FD35C8699B214",
+  "keywordClasses": [
+    {
+      "name": "util.RandomizedNumber",
+      "keywordMethods": [
+        {
+          "name": "generateNomorKTP",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "generateNomorHP",
+          "parameters": [
+            {
+              "name": "totalDigit",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "generateNomorRekening",
+          "parameters": [
+            {
+              "name": "totalDigit",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "generateNomorHP",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "generateNomorRekening",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
