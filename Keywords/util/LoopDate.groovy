@@ -28,12 +28,10 @@ public class LoopDate {
 
 	@Keyword
 	def selectMonthFromExcel(String filePath = 'Data Files/Data Registrasi.xlsx', String sheetName = 'Sheet1') {
-		// Baca file Excel
 		FileInputStream fis = new FileInputStream(filePath)
 		XSSFWorkbook workbook = new XSSFWorkbook(fis)
 		def sheet = workbook.getSheet(sheetName)
 
-		// Ambil target bulan dari baris pertama kolom 0
 		String targetMonth = sheet.getRow(1).getCell(0).getStringCellValue().trim()
 		WebUI.comment(" Target bulan dari Excel: ${targetMonth}")
 

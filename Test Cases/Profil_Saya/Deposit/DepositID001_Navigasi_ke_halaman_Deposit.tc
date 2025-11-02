@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DepositID001_Navigasi_ke_halaman_Deposit</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e461a230-efa2-4809-99cb-d11ac68d51bd</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ca9ebd58-0d20-4a71-aef0-85f61a5de25b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>989f7621-dc55-4bf1-965a-3453d911e605</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ddd40ae0-a98d-4101-9692-73b37acfb401</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Deposit'</defaultValue>
+      <description></description>
+      <id>ca9ebd58-0d20-4a71-aef0-85f61a5de25b</id>
+      <masked>false</masked>
+      <name>titleSub_Tab</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>989f7621-dc55-4bf1-965a-3453d911e605</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ddd40ae0-a98d-4101-9692-73b37acfb401</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

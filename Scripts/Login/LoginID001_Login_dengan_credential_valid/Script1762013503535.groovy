@@ -115,4 +115,21 @@ WebUI.verifyMatch(urlSetelahLogin, GlobalVariable.urlProfil, false)
 'Ambil screenshot'
 WebUI.takeScreenshot()
 
+'Mengambil atribut Aria-Current'
+String ariaCurrent = WebUI.getAttribute(findTestObject('Profil_Saya_Page/Sub_Tab/Sub_Tab_DataDiri'), 'aria-current')
+
+'Memastikan halaman yang aktif sekarang'
+WebUI.verifyMatch(ariaCurrent, 'page', false)
+
+'Verifikasi element terlihat'
+WebUI.verifyElementVisible(findTestObject('Profil_Saya_Page/Data_Diri_Section/Label/Label_Email'))
+
+'Verifikasi element terlihat'
+WebUI.verifyElementVisible(findTestObject('Profil_Saya_Page/Data_Diri_Section/TextInput/TextInput_Email'), FailureHandling.STOP_ON_FAILURE)
+
+'Mengambil Atribut Element untuk Ditampung ke Variabel'
+String inputtedEmail2 = WebUI.getAttribute(findTestObject('Profil_Saya_Page/Data_Diri_Section/TextInput/TextInput_Email'), 'value')
+
+'Verifikasi Element Sama'
+WebUI.verifyMatch(inputtedEmail2, inputtedEmail, false)
 

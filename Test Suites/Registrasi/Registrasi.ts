@@ -116,5 +116,41 @@
          <value>konfirmasiKataSandi</value>
          <variableId>6b96ead8-b1a1-4107-973c-39f9b9898e69</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>74eb0b0c-51c6-4aaf-925c-c45eac6b877e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pilihBank</value>
+         <variableId>57971e50-ff1b-4b75-852b-fc8fd72b14cf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>74eb0b0c-51c6-4aaf-925c-c45eac6b877e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>namaPemilikRekening</value>
+         <variableId>ab013c3f-237c-4d8a-b416-6113832d70e0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>74eb0b0c-51c6-4aaf-925c-c45eac6b877e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>sumberDana</value>
+         <variableId>a586137e-c466-4cd8-8220-ff0354148c4e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>74eb0b0c-51c6-4aaf-925c-c45eac6b877e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>metodePembayaran</value>
+         <variableId>fbe06671-a37e-4d86-b2cf-6f43de940fc9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>63dd2bd3-9c62-47fa-9d0a-66b88cdb0a62</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f43279a5-505d-408c-b479-bea9375849a8</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
