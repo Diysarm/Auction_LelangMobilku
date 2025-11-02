@@ -22,9 +22,9 @@ import java.security.SecureRandom
 import internal.GlobalVariable
 
 public class RandomizedNumber {
-	
+
 	SecureRandom random = new SecureRandom()
-	
+
 	@Keyword
 	def String generateNomorKTP() {
 		StringBuilder ktp = new StringBuilder()
@@ -54,5 +54,4 @@ public class RandomizedNumber {
 		}
 		return rek.toString()
 	}
-	
 }

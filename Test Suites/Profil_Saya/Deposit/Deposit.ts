@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Deposit</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>b0230bfb-d0d2-4bfd-8fad-623a1ab15c9c</testSuiteGuid>
+   <testCaseLink>
+      <guid>048125ab-825b-4b87-8d84-6c698bd0853f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Profil_Saya/Deposit/DepositID001_Navigasi_ke_halaman_Deposit</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>1013b973-a05d-46a7-946d-eb825ce84294</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Credentials</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ca9ebd58-0d20-4a71-aef0-85f61a5de25b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1013b973-a05d-46a7-946d-eb825ce84294</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Email</value>
+         <variableId>989f7621-dc55-4bf1-965a-3453d911e605</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1013b973-a05d-46a7-946d-eb825ce84294</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>ddd40ae0-a98d-4101-9692-73b37acfb401</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
